@@ -5,16 +5,21 @@ import SoftwareDeveloper from 'hochiminh';
 import { Languages, Frameworks, Cms } from 'huuha/skills';
 
 class Bio extends SoftwareDeveloper {
-  name     = 'Nguyen Huu Ha';
-  title    = 'Senior Software Developer';
-  location = 'Thu Duc, Ho Chi Minh, Viet Nam';
+    name     = 'Nguyen Huu Ha';
+    title    = 'Senior Software Developer';
+    location = 'Thu Duc, Ho Chi Minh, Viet Nam';
 }
 
 class Skills extends SoftwareDeveloper {
-  languages  = ['JavaScript', 'TypeScript', 'PHP', 'Python', ...Languages];
-  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
-  frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
-  cms        = ['Wordpress', 'Magento', 'Opencart', ...Cms];
+    languages  = ['JavaScript', 'TypeScript', 'Node.js', 'PHP', 'Python', ...Languages];
+    databases  = ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis'];
+    frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
+    cms        = ['WordPress', 'Magento', 'Strapi', ...Cms];
+    devOps     = ['Docker', 'CI/CD', 'Nginx', 'Apache'];
+    cloud      = ['AWS', 'GCP', 'Vercel', 'DigitalOcean'];
+    testing    = ['Jest', 'Playwright'];
+    tooling    = ['Webpack', 'Vite', 'ESLint', 'Prettier', 'TurboRepo'];
+    blockchain = ['Solana', 'Raydium', 'Web3.js'];
 }
-
 ```
+
