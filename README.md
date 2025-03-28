@@ -13,7 +13,7 @@ class Bio extends SoftwareDeveloper {
 class Skills extends SoftwareDeveloper {
     languages  = ['JavaScript', 'TypeScript', 'Node.js', 'PHP', 'Python', ...Languages];
     databases  = ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis'];
-    frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
+    frameworks = ['React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
     cms        = ['WordPress', 'Magento', 'Strapi', ...Cms];
     devOps     = ['Docker', 'CI/CD', 'Nginx', 'Apache'];
     cloud      = ['AWS', 'GCP', 'Vercel', 'DigitalOcean'];
